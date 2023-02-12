@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+
+/* HEADER STYLE */
+header {
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 174px;
+    padding-right: 176px;
+}
+
+.first {
+    border-bottom: 2px solid #5454D4;
+    color: #19191B;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #696871;
+    margin-left: 30px;
+}
+
+header button {
+    padding: 22px 40px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    color: #fff;
+}
+/* HEADER STYLE */
+
+
+/* SECTION STYLE */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 174px;
+    padding-right: 110px;
+}
+
+section h2 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+}
+
+section button {
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    color: #fff;
+    margin-top: 30px;
+    padding: 22px 40px;
+}
+
+.arrow{
+    position: relative;
+    top: 25px;
+    margin-left: 30px;
+}
+
+/* logo wrapper */
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text h2{
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width:459px;
+    height:90px;
+    margin-bottom: 30px;
+}
+.text a{
+    text-decoration:none;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5002105832099915px;
+    width:307px;
+    height:48px;
+    font-family: 'DM Sans', sans-serif;
+    color: #696871;
+    text-align: center;
+    margin-top:20px;
+
+
+}
+.content h4{
+    height:36px;
+    font-family: 'DM Sans', sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 82px;
+
+}
+
+.plan h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.875789999961853px;
+    text-align: left;
+
+}
+
+.btn{
+    margin-left: 244px;
+}
+
+.plan button:nth-child(1){
+    background-color: blue;
+    color:#fff;
+    padding: 18px 60px;
+    border:none;
+    border-radius: 8px 0px 0px 8px;
+}
+.plan button:nth-child(2){
+    background-color:#F7F7FB;
+    color:black;
+    padding: 18px 55px;
+    border:none;
+    border-radius: 0px 8px 8px 0px;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+}
+.card{
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 34px;
+    transition: all 0.6s;
+    
+}
+.card h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.details{
+    margin-top:30px;
+}
+.card h2 span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.card p{
+     margin-bottom: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    color: #696871;
+}
+
+.card button{
+    
+    border-radius: 10px;
+    border:none;
+    background-color: #fff;
+    color:#5454D4;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: #FF7143;
+    color:white;
+    transform: scale(1.04);
+    margin-left:15px;
+}
+
+.card button:hover{
+    
+    border-radius: 10px;
+    border:none;
+    background-color: #9F3919;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 17px;
+}
+@media only screen and (max-width:820px){
+    section , .plan, .cards{
+        display: grid;
+    }
+    .logos{
+        display: grid;
+    }
+    nav ,header button{
+        display: none;
+    }
+}
