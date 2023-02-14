@@ -11,29 +11,35 @@
 </head>
 <body>
 
-    <div class="head">
         <header>
             <!--The Logo-->
-            <img src="/Assets/Logo Colorlogo.png" width="" height="">
+            <img src="/Assets/Logo Colorlogo.png" width="" height=""> 
+            
+            <input type="checkbox" class="burger" id="burger">
+            <label class="hamburger" for="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </label>
            
             <!-- The list items -->
             <nav class="navbar">
                 <ul>
-                    <li class="first">Home</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
+                    <li><a href="#first" class="first" >Home</a></li>
+                    <li><a href="#second">Features</a></li>
+                    <li><a href="#fourth">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </nav>
             
             <!-- Button -->
             <button>Get Started</button>
         </header>
-    </div>
+    
 
-    <section>
+     <section class="firstSection" id="first">
         <!-- The first div -->
-        <div>
+        <div class="firt">
             <h2>Grow your subscription business</h2>
             <p>Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
             <div class="arrowbtn">
@@ -43,10 +49,13 @@
         </div>
 
         <!-- second div -->
-        <div>
-            <img src="/Assets/the HERO.png" alt="">
+        <div class="firstImage">
+             <img src="/Assets/the HERO.png" alt=""> 
         </div>
-    </section>
+    </section> 
+
+
+    
     <div class="logos">
         <div>
             <img src="/Assets/Grouplogo1.svg" alt="logo">
@@ -63,8 +72,10 @@
         <div>
             <img src="/Assets/Grouplogo5.svg" alt="logo">
         </div>
-    </div>
-    <section>
+    </div> 
+
+   
+    <section class="secondsection" id="second">
         <!-- image div -->
         <div>
             <img src="/Assets/Content Image 02.png" alt="pose">
@@ -75,9 +86,9 @@
             <p>A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p>
             <a href="/">Learn More</a>
         </div>
-    </section>
+    </section> 
 
-    <section>
+    <section class="thirdsection">
         <div class="text">
             <h2>In-depth metrics</h2>
             <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
@@ -86,16 +97,16 @@
         <div>
             <img src="/Assets/Content Imagepiccc.svg">
         </div>
-    </section>
+    </section> 
 
     <!-- random section -->
-    <div class="logos">
+    <div class="contents">
         <div class="content">
             <h4>Benchmarks</h4>
             <p>See how you stack up against comparable companies in similar stages.</p>
 
         </div>
-        <div class="content">
+        <div class="content" class="cont">
             <h4>Pricing Audit</h4>
             <p>Benchmark the health of your monetization and pricing strategy.</p>
 
@@ -104,10 +115,10 @@
             <h4>Retention Audit</h4>
             <p>Audit where revenue leakage exists and where you can increase retention.</p>
         </div>
-    </div>
+    </div> 
 
     <!--Card section-->
-    <div class="plan">
+    <div class="plan" id="fourth">
         <div>
             <h2>Get the right plan for future product.</h2>
         </div>
@@ -115,10 +126,10 @@
             <button>Yearly</button>
             <button>Monthly</button>
         </div>
-    </div>
+    </div> 
 
     <div class="cards">
-        <div class="card">
+        <div class="firstcard">
             <p>Starter</p>
             <h2>Free</h2>
             <div class="details">
@@ -130,8 +141,8 @@
             <div>
                 <button>Get Started</button>
             </div>
-
         </div>
+
         <div class="card">
             <p>Premium</p>
             <h2>$29<span>/month</span></h2>
@@ -140,12 +151,12 @@
                 <p>15GB Hosting</p>
                 <p>Premium Support</p>
             </div>
-         
+            
             <div>
                 <button>Get Started</button>
             </div>
-
         </div>
+    
         <div class="card">
             <p>Enterprise</p>
             <h2>$49<span>/month</span></h2>
@@ -158,9 +169,8 @@
             <div>
                 <button>Get Started</button>
             </div>
-
         </div>
-    </div>
+    </div>  
 </body>
 
 </html>
